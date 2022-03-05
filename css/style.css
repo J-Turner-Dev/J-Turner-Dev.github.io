@@ -16,6 +16,8 @@
   --clr-light: #fff;
   --clr-dark: #303030;
   --clr-accent: #75d1ff /*#16e0bd*/;
+  --clr-accent2: #ff8e47;
+  --clr-accent3: #fff06d;
 
   --fs-h1: 2.5rem;
   --fs-h2: 2.25rem;
@@ -323,6 +325,10 @@ header {
 .service {
   max-width: 500px;
   margin: 0 auto;
+}
+
+.icon {
+  padding-bottom: 0.8em;
 }
 
 @media (min-width: 800px) {
