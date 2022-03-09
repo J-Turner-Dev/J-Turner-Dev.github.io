@@ -13,3 +13,20 @@ navLinks.forEach((link) => {
     document.body.classList.remove("nav-open");
   });
 });
+
+function turnOffCards(x) {
+  var cardElement = document.getElementsByClassName("card");
+  if (x.matches) {
+    for (let i = 0; i < cardElement.length; i++) {
+      cardElement[i].setAttribute("data-tilt-scale", "1");
+    }
+  } else {
+    for (let i = 0; i < cardElement.length; i++) {
+      cardElement[i].setAttribute("data-tilt-scale", "1.4");
+    }
+  }
+}
+
+var screenSize = window.matchMedia("(max-width: 600px)");
+
+window.addEventListener("resize", turnOffCards(screenSize));
