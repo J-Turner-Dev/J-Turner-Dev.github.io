@@ -86,6 +86,12 @@ strong {
   transition: transform 200ms ease-in-out;
 }
 
+@media (max-width: 600px) {
+  .btn {
+    transition: transform 100ms ease-in-out;
+  }
+}
+
 .btn:hover {
   transform: scale(1.1);
 }
