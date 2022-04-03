@@ -393,7 +393,7 @@ header {
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .portfolio__item {
@@ -492,6 +492,13 @@ header {
   transform: translateY(100px);
   opacity: 0;
   transition: 0.5s;
+}
+
+@media (max-width: 600px) {
+    .container .card .content {
+      opacity: 1;
+      transform: translateY(0px);
+  }
 }
 
 .container .card:hover .content {
