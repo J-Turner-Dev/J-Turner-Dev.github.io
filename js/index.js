@@ -27,6 +27,6 @@ function turnOffCards(x) {
   }
 }
 
-var screenSize = window.matchMedia("(max-width: 600px)");
+var screenSize = window.matchMedia("(max-width: 720px)");
 
 window.addEventListener("resize", turnOffCards(screenSize));

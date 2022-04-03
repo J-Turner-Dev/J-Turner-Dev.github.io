@@ -68,6 +68,7 @@
       <div class="about-me__body">
         <a href="index.html#project-3" class="btn">Back</a>
         <h2>Work in Progress!</h2>
+        <div id="bbms-srs"></div>
       </div>
     </section>
 
@@ -91,5 +92,16 @@
     </footer>
 
     <script src="js/index.js"></script>
+    <script src="/js/pdfobject.js"></script>
+    <script>
+      PDFObject.embed("/pdf/BBMS_SRS.pdf", "#bbms-srs");
+    </script>
+    <style>
+      .pdfobject-container {
+        height: 30rem;
+        width: 60rem;
+        border: 1rem solid rgba(0, 0, 0, 0.1);
+      }
+    </style>
   </body>
 </html>
