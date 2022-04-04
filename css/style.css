@@ -350,7 +350,7 @@ header {
   }
 }
 
-.about-me {
+.about-me, .project-body {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -360,7 +360,7 @@ header {
 }
 
 @media (min-width: 600px) {
-  .about-me {
+  .about-me, .project-body {
     display: grid;
     grid-template-columns: 1fr 200px;
     grid-template-areas:
@@ -584,4 +584,12 @@ header {
   justify-content: center;
   align-items: center;
   background: #ff8e47;
+}
+
+.project-back, .project__body {
+  text-align: center;
+}
+
+.project, .project-body {
+  padding: 2em 2em;
 }
