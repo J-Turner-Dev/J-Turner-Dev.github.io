@@ -28,7 +28,7 @@
     0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
   :root {
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
@@ -36,7 +36,7 @@
     --fs-body: 1.125rem;
   }
   #nicheiframe {
-    width: "650px";
+    width: 650px;
   }
 }
 
