@@ -35,6 +35,9 @@
     --fs-h3: 1.5rem;
     --fs-body: 1.125rem;
   }
+  #nicheiframe {
+    width="650px"
+  }
 }
 
 /* General Styles */
