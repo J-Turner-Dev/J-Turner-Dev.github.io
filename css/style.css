@@ -37,9 +37,9 @@
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
   #nicheiframe {
-    width: 900px;
+    width: 850px;
   }
 }
 
