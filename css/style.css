@@ -35,8 +35,11 @@
     --fs-h3: 1.5rem;
     --fs-body: 1.125rem;
   }
+}
+
+@media (min-width: 850px) {
   #nicheiframe {
-    width: 650px;
+    width: 850px;
   }
 }
 
